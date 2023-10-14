@@ -4,7 +4,7 @@ import { differenceInYears } from "date-fns";
 
 const AgeCalculator = () => {
   const [dateOfBirth, setDateOfBirth] = useState("");
-  const [age, setAge] = useState("");
+  const [age, setAge] = useState();
 
   const onChangeHandler = (e) => {
     e.preventDefault();
